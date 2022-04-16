@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Abhineet Raj server</title>
+	<link rel="shortcut icon" href="/f/fav.png">
+	<meta name="description" content="No such page is available">
+	<style type="text/css">
+		body{
+			padding: 0px;
+			margin: 0px;
+		}
+		#bg{
+			position: fixed;
+			height: 100vh;
+		}
+		#tg{
+			position: fixed;
+			width: 100%;
+			text-align: center;
+		}
+		#st{
+			font-size: 4vh;
+			color: black;
+			padding: 1vh;
+			background: white;
+			text-align: center;
+		}
+	</style>
+</head>
+<body>
+<video id="bg" autoplay muted loop>
+	<source src="/f/c.mp4">
+</video>
+<div id="tg">
+<p id="st">404 No page found<br><a href="/">back to home</a></p>
+
+</div>
+<script type="text/javascript">
+	if(window.innerHeight > window.innerWidth){
+		document.getElementsByTagName("source")[0].src="f/c.mp4";
+	} else {
+		document.getElementsByTagName("source")[0].src="f/f.mp4";
+	}
+</script>
+</body>
+</html>
