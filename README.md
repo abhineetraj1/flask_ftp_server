@@ -12,3 +12,6 @@ Open terminal, write this code and hit enter
 ### 2) Installation for windows based OS
 Open cmd, write this code and hit enter
 ```pip install flask```
+
+# File storage path
+When the client will upload his/her file(s), the new folder will be created with random name like "2022320XXXX" and the upload file(s) will be stored in that folder
