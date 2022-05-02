@@ -1,17 +1,61 @@
 # Flask file storage server
 Hi guys, this is the simple file storage server made in flask.
 
-You need Python3.6
+Made in python3.6 (using Flask lib)
 
-# Library required:-
-## Flask
-### 1) Installation for macOS or linux
-Open terminal, write this code and hit enter
-```pip3 install flask```
+## Installation
+1) First install python3.6 in your respective system
+2) Download this source code
 
-### 2) Installation for windows based OS
-Open cmd, write this code and hit enter
-```pip install flask```
+### For macOS
+
+Open terminal , execute the below code
+
+```
+pip3 install flask
+```
+
+### For linux
+
+Open terminal , execute the below code
+
+```
+sudo pip3 install flask
+```
+
+### For windows
+
+Open command prompt (search for this, you'll get it) , execute the below code
+
+```
+pip3 install flask
+```
+
+
+## Execution
+
+### For macOS
+
+1) Open terminal in the respective folder (where you have downloaded the project) write the below code and hit enter
+
+```flask run```
+
+2) And then open web browser and go to -> http://127.0.0.1:5000
+
+### For Linux
+
+1) Open terminal in the respective folder (where you have downloaded the project) write the below code and hit enter
+
+```flask run```
+
+2) And then open web browser and go to -> http://127.0.0.1:5000
+
+
+### For Windows
+
+1) Download this source code and double click on file -> app.py .
+
+2) And then open web browser and go to -> http://127.0.0.1:5000
 
 # File storage path
 When the client will upload his/her file(s), the new folder will be created with random name like "2022320XXXX" and the upload file(s) will be stored in that folder
