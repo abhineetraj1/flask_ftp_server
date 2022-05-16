@@ -4,12 +4,6 @@ import os
 import shutil
 import smtplib
 
-"""def send_mail():
-	sttt = smtplib.SMTP('smtp.gmail.com', 587)
-	sttt.starttls()
-	sttt.login("hacker.route.47@gmail.com", "12hin55t")
-	sttt.sendmail("hacker.route.47@gmail.com", "abhineetraj5032@gmail.com", "Few files have been uploaded to you server")
-"""
 app = Flask(__name__,static_folder="f")
 
 def rdm():
@@ -30,7 +24,6 @@ def aa2():
 		os.mkdir(n)
 		for file in files:
 			file.save(n+"/"+file.filename)
-		#send_mail()
 		return rf("a.html")
 
 @app.errorhandler(404)
