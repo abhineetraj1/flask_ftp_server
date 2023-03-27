@@ -3,45 +3,24 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Abhineet Raj server</title>
+	<title>{{error}}</title>
 	<link rel="shortcut icon" href="/f/fav.png">
 	<style type="text/css">
 		body{
 			padding: 0px;
 			margin: 0px;
+			background: #33acff;
 		}
-		#bg{
-			position: fixed;
-			height: 100vh;
-		}
-		#tg{
-			position: fixed;
+		h1{
 			width: 100%;
 			text-align: center;
-		}
-		#st{
-			font-size: 4vh;
-			color: black;
-			padding: 1vh;
-			background: white;
-			text-align: center;
+			margin-top: 10vh;
 		}
 	</style>
 </head>
 <body>
-<video id="bg" autoplay muted loop>
-	<source src="/f/c.mp4">
-</video>
-<div id="tg">
-<p id="st">500 Internal server error<br><a href="/">Back to home</a></p>
 
-</div>
-<script type="text/javascript">
-	if(window.innerHeight > window.innerWidth){
-		document.getElementsByTagName("source")[0].src="f/c.mp4";
-	} else {
-		document.getElementsByTagName("source")[0].src="f/f.mp4";
-	}
-</script>
+<h1>{{error}}</h1>
+
 </body>
 </html>
