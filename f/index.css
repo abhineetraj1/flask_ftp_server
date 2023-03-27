@@ -1,0 +1,92 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	background: #33acff;
+}
+#upl{
+	margin-top: 10vh;
+	height: 50vh;
+	background: white;
+	position: relative;
+	width: 40%;
+	left: 30%;
+	font-weight: bold;
+	border-radius: 10px;
+	box-shadow: 0px 0px 10px black;
+	font-size: 20px;
+	text-align: center;
+	padding: 10px;
+}
+#upl:hover{
+	box-shadow: 0px 0px 10px blue;
+}
+#fl{
+	font-size: 20px;
+	padding: 4px;
+	color: white;
+	background: black;
+	border: solid;
+	border-color: black;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+#fl:hover{
+	animation: trn 2s;
+	background: white;
+	border-color: black;
+	box-shadow: 0px 0px 10px black;
+	color: black;
+}
+input{
+	display: none;
+}
+#upl-btn{
+	background: white;
+	color: black;
+	padding-right: 10px;
+	padding-left: 10px;
+	border: solid;
+	margin: 1vh;
+	font-size: 20px;
+	display: none;
+}
+#upl-btn:hover{
+	animation: mrt 2s;
+	background: black;
+	color: white;
+	border-color: black;
+}
+@media screen and (max-width:600px) {
+	#upl{
+		left: 10%;
+		width: 80%;
+	}
+}
+#frm{
+	width: 100%;
+	text-align: center;
+}
+@keyframes trn{
+	from{
+		background: black;
+		color: white;
+		box-shadow: 0px 0px 0px white;
+	}
+	to {
+		box-shadow: 0px 0px 10px black;
+		background: white;
+		color: black;
+	}
+}
+@keyframes mrt{
+	from{
+		background: white;
+		color: black;
+		box-shadow: 0px 0px 0px white;
+	}
+	to {
+		box-shadow: 0px 0px 10px black;
+		background: black;
+		color: white;
+	}
+}
